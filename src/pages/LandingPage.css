@@ -1,8 +1,8 @@
-.landing {
-  background-image: url('../assets/background.jpg');
+.landing-container {
+  background-image: url('https://wallpaper.forfun.com/fetch/05/058d30394bb54b92f46beed212779e91.jpeg'); /* Use a real image */
   background-size: cover;
   height: 100vh;
-  text-align: center;
   color: white;
-  padding-top: 20%;
+  text-align: center;
+  padding-top: 100px;
 }

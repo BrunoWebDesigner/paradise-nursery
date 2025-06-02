@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart } from '../redux/cartSlice';
-import { plantData } from '../plantData';
+import { plantData } from '../components/plantData';
 import Header from '../components/Header';
 
 export default function ProductListingPage() {
