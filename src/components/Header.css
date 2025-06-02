@@ -1,0 +1,69 @@
+.header {
+  position: fixed;  /* Fixes the header to the viewport */
+  top: 0;
+  left: 0;
+  width: 97%;      /* Full width */
+  height: 70px;     /* Set a fixed height */
+  z-index: 1000;    /* Stays above other content */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  
+  background: #eaf3ea; /* Your light green */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Add some margin or padding to the page content so it’s not hidden under the fixed header */
+body {
+  padding-top: 70px; /* Same as header height */
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #2f5d27;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.3s ease;
+}
+
+.header h1:hover {
+  color: #4caf50;
+}
+
+.header p {
+  margin: 0;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #557a3d;
+  flex-grow: 1;
+  text-align: center;
+  user-select: none;
+}
+
+.header a.cart-link {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #3a6b23;
+  background-color: #c5e1a5;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(58, 107, 35, 0.3);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  user-select: none;
+}
+
+.header a.cart-link:hover {
+  background-color: #aed581;
+  color: #2e5d17;
+}

@@ -1,8 +1,89 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
 .landing-container {
-  background-image: url('https://wallpaper.forfun.com/fetch/05/058d30394bb54b92f46beed212779e91.jpeg'); /* Use a real image */
-  background-size: cover;
+  position: relative;
   height: 100vh;
+  padding: 100px 1rem 2rem;
   color: white;
   text-align: center;
-  padding-top: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('https://wallpaper.forfun.com/fetch/05/058d30394bb54b92f46beed212779e91.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  z-index: 0;
+}
+
+/* Dark overlay for readability */
+.landing-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+  z-index: -1;
+}
+
+.landing-container h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+.landing-container p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  line-height: 1.5;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+.landing-container button {
+  background-color: #4caf50cc; /* slightly transparent green */
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(76, 175, 80, 0.6);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.landing-container button:hover {
+  background-color: #388e3ccc;
+  box-shadow: 0 8px 16px rgba(56, 142, 60, 0.8);
+}
+
+.landing-container button:focus {
+  outline: 2px solid #2e7d32;
+  outline-offset: 2px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .landing-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .landing-container p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .landing-container button {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
 }

@@ -5,7 +5,7 @@ export const plantData = [
     price: 20,
     category: 'Air Purifying',
     description: 'Cleans indoor air',
-    image: 'https://via.placeholder.com/150?text=Peace+Lily',
+    image: 'https://www.capegazette.com/sites/capegazette/files/2020/12/field/image/peace%20lily.jpg',
   },
   {
     id: '2',
@@ -13,7 +13,7 @@ export const plantData = [
     price: 15,
     category: 'Aromatic',
     description: 'Smells great and calms the mind.',
-    image: 'https://via.placeholder.com/150?text=Lavender',
+    image: 'https://cdn.mos.cms.futurecdn.net/vMVNCBkEjtnZE8efv7foyX.jpg',
   },
   {
     id: '3',
@@ -21,7 +21,7 @@ export const plantData = [
     price: 18,
     category: 'Low Light',
     description: 'Thrives in low light, hard to kill.',
-    image: 'https://via.placeholder.com/150?text=Snake+Plant',
+    image: 'https://media.houseandgarden.co.uk/photos/6736030759a56cf43ffed622/master/w_1600%2Cc_limit/517540986',
   },
   {
     id: '4',
@@ -29,7 +29,7 @@ export const plantData = [
     price: 12,
     category: 'Air Purifying',
     description: 'Soothing and easy to care for.',
-    image: 'https://via.placeholder.com/150?text=Aloe+Vera',
+    image: 'https://secretgarden.ro/cdn/shop/files/VERA17_d477184d-9a8b-4786-819e-bc0de6077ccb.png?v=1704974673',
   },
   {
     id: '5',
@@ -37,7 +37,7 @@ export const plantData = [
     price: 10,
     category: 'Aromatic',
     description: 'Great for cooking and fragrance.',
-    image: 'https://via.placeholder.com/150?text=Rosemary',
+    image: 'https://www.jacksonandperkins.com/images/xxl/44150.jpg',
   },
   {
     id: '6',
@@ -45,6 +45,6 @@ export const plantData = [
     price: 25,
     category: 'Low Light',
     description: 'Tough and elegant.',
-    image: 'https://via.placeholder.com/150?text=ZZ+Plant',
+    image: 'https://assets.eflorist.com/site/32084100/assets/products/PHR_/sku4760119.jpg?1719850171450',
   },
 ];
