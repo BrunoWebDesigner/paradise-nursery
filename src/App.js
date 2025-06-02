@@ -7,7 +7,7 @@ import Header from './components/Header'; // Optional if header is shared
 
 function App() {
   return (
-    <Router>
+    <Router basename="/paradise-nursery">
       <Header />
       {/* Optionally show Header on every page except Landing */}
       <Routes>
